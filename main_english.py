@@ -39,7 +39,7 @@ class DisciplineTeacher(Teacher):
         super().__init__(name, last_name, education, exp)
         self.__discipline = discipline
         self.__job_title = job_title
-        Teacher.teaches.append((name,last_name))
+
 
     @property
     def discipline(self):
