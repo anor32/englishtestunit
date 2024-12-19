@@ -1,5 +1,5 @@
 import unittest
-from symtable import Class
+
 
 from main_english import Teacher, DisciplineTeacher
 
