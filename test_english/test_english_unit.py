@@ -4,6 +4,8 @@ import unittest
 from main_english import Teacher, DisciplineTeacher
 
 
+
+
 class TestTeacher(unittest.TestCase):
     teacher_test = Teacher("Антон", "Алексеевич", "высшее", "3 года")
     disp_teacher = DisciplineTeacher("Сергей", "Краснов", "высшее", "3 года", "литература", "стажер")
